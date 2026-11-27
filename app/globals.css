@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* Paletă din identitatea localului: fațadă albastru-ardezie, firmă teracotă, podea crem, scaune colorate. */
+/* Paletă: albastru-ardezie, teracotă, crem și accente vii. */
 @theme {
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;

@@ -69,7 +69,7 @@ export default function Home() {
                 <span className="hidden h-9 w-px bg-white/10 sm:block" aria-hidden="true" />
                 <span className="flex items-center gap-3">
                   <span className="font-display text-3xl font-bold">{site.facebook.followers}</span>
-                  <span className="text-xs leading-tight text-white/65">urmăritori<br />pe Facebook</span>
+                  <span className="text-xs leading-tight text-white/65">urmăritori<br />pe Facebook [exemplu]</span>
                 </span>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function Home() {
               <div className="absolute -bottom-5 left-5 flex items-center gap-3 rounded-2xl bg-paper px-4 py-3 text-ink shadow-xl sm:-left-5">
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber/10 text-amber"><Store aria-hidden="true" className="h-5 w-5" /></span>
                 <span>
-                  <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-amber">Food shop · Bistro · Cofetărie</span>
+                  <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-amber">Shaorma · Burgeri · Pizza</span>
                   <span className="block text-sm font-semibold">Aproape de centru</span>
                 </span>
               </div>
@@ -190,7 +190,7 @@ export default function Home() {
             <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:h-[30rem] lg:grid-cols-[1.4fr_1fr] lg:grid-rows-2">
               <Placeholder icon={Store} label="Fațada localului" className="min-h-72 rounded-[1.5rem] sm:col-span-2 lg:col-span-1 lg:row-span-2" />
               <Placeholder icon={Armchair} label="Sala de mese" className="min-h-56 rounded-[1.5rem]" />
-              <Placeholder icon={CakeSlice} label="Vitrina și cofetăria" className="min-h-56 rounded-[1.5rem]" />
+              <Placeholder icon={CakeSlice} label="Vitrina cu preparate" className="min-h-56 rounded-[1.5rem]" />
             </div>
           </div>
         </section>
